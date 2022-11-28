@@ -10,16 +10,17 @@ header {
 }
 
 .navMenu {
-  /* display: none; */
   position: fixed;
   height: 100vh;
-  width: 200px;
+  width: 0px;
   right: 0;
   top: 0;
   bottom: 0;
   gap: 1.5rem;
   background-color: #474545;
   padding-block: 1rem;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
 }
 
 .nav-link {
