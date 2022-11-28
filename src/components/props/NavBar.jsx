@@ -40,7 +40,7 @@ function NavBar() {
             alt="menu"
           />
         </a>
-        <ul>
+        <ul style={{ paddingTop: '1rem' }}>
           <li className="nav-link">
             <NavLink className="text-neutral-100" to="/">
               Home
@@ -52,7 +52,16 @@ function NavBar() {
             </NavLink>
           </li>
         </ul>
-        <button className="action-button" type="button">
+        <button
+          style={{
+            position: 'absolute',
+            bottom: '1rem',
+            left: '1rem',
+            width: '160px',
+          }}
+          className="action-button"
+          type="button"
+        >
           Sign-Up for free
         </button>
       </div>

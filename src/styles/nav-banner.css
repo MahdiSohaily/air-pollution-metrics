@@ -17,7 +17,7 @@ header {
   top: 0;
   bottom: 0;
   gap: 1.5rem;
-  background-color: #474545;
+  background-color: hsl(0, 1%, 27%);
   padding-block: 1rem;
   transition: all 0.5s ease-in-out;
   overflow: hidden;
@@ -27,8 +27,13 @@ header {
   padding: 0.5rem 1rem;
 }
 
+.nav-link:hover {
+  background-color: hsl(0, 2%, 19%);
+}
+
 .nav-link a {
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .action-button {
@@ -38,12 +43,6 @@ header {
   background-color: dodgerblue;
   color: var(--clr-neutral-100);
   border: none;
-}
-
-@media screen and (max-width: 40em) {
-  .action-button {
-    display: none;
-  }
 }
 
 /* End of header section styles */
