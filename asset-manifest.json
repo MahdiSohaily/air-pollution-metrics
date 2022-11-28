@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/MahdiSohaily.github.io/air-pollution-metrics/static/css/main.60c14bcd.css",
+    "main.js": "/MahdiSohaily.github.io/air-pollution-metrics/static/js/main.021a851c.js",
+    "static/media/instagram.png": "/MahdiSohaily.github.io/air-pollution-metrics/static/media/instagram.79535458a8a6d88f81d4.png",
+    "static/media/loading.gif": "/MahdiSohaily.github.io/air-pollution-metrics/static/media/loading.b1335c4534a3430c3d52.gif",
+    "static/media/twitter.png": "/MahdiSohaily.github.io/air-pollution-metrics/static/media/twitter.c6e48e60f856cb822273.png",
+    "static/media/github.png": "/MahdiSohaily.github.io/air-pollution-metrics/static/media/github.a855c3975c028d8069f5.png",
+    "static/media/linkedin.png": "/MahdiSohaily.github.io/air-pollution-metrics/static/media/linkedin.6892b3ae328c7a1e055f.png",
+    "static/media/facebook.png": "/MahdiSohaily.github.io/air-pollution-metrics/static/media/facebook.4f037d961598aff2a0a4.png",
+    "index.html": "/MahdiSohaily.github.io/air-pollution-metrics/index.html",
+    "main.60c14bcd.css.map": "/MahdiSohaily.github.io/air-pollution-metrics/static/css/main.60c14bcd.css.map",
+    "main.021a851c.js.map": "/MahdiSohaily.github.io/air-pollution-metrics/static/js/main.021a851c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60c14bcd.css",
+    "static/js/main.021a851c.js"
+  ]
+}
