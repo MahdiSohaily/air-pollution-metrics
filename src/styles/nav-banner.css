@@ -1,0 +1,71 @@
+.container img {
+    width: 7rem;
+    height: 3rem;
+  }
+  
+  .nav-link {
+    margin: 0 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .banner-section {
+    height: 65vh;
+    background-image: url('../imgs/banner.jpg');
+    background-size: 100vw 40vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner {
+    margin-top: 15vh;
+    background-color: white;
+    opacity: 0.9;
+    width: 80%;
+    height: 70%;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .banner-text h1,
+  .banner-text h2 {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  
+  .banner-text h2 {
+    color: #44b276;
+  }
+  
+  @media (min-width: 760px) {
+    .banner-section {
+      height: 95vh;
+      background-size: 100vw 50vh;
+    }
+  
+    .banner-text h1,
+    .banner-text h2 {
+      font-size: 5rem;
+      font-weight: 800;
+      opacity: 1.2 !important;
+    }
+  
+    .search {
+      width: 70%;
+      margin: auto;
+      margin-top: 2rem;
+    }
+  
+    .search input {
+      outline: 1px solid #44b276;
+      height: 5rem;
+    }
+  }
+  
