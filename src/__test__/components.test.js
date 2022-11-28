@@ -3,9 +3,9 @@ import { Provider } from 'react-redux';
 import { render } from '@testing-library/react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import store from '../redux/store';
-import Contact from '../Components/Pages/Contact';
-import Details from '../Components/Pages/Details';
-import Home from '../Components/Pages/Home';
+import Contact from '../components/Pages/Contact';
+import Details from '../components/Pages/Details';
+import Home from '../components/Pages/Home';
 import '@testing-library/jest-dom';
 
 describe('Testing Profile and Mission Components', () => {
