@@ -4,12 +4,13 @@ header {
 }
 
 .navBar {
+  display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 0.5rem 1rem;
 }
 
 .navMenu {
+  /* display: none; */
   position: fixed;
   height: 100vh;
   width: 200px;
