@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react';
+import '../../styles/details.css';
+import Table from 'react-bootstrap/Table';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { getPollutionData } from '../../redux/slice';
+import Loading from '../../imgs/loading.gif';
 import data from '../../data/data';
 import NavBar from '../props/NavBar';
 import Footer from '../props/Footer';
 import back from '../../imgs/back.png';
-import Loading from '../../imgs/loading.gif';
 
 function Details() {
   const { country } = useParams();
