@@ -340,16 +340,6 @@ const countriesData = [
     map: 'https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/ro/512.png',
   },
   {
-    country: 'San Marino',
-    alpha2: 'SM',
-    alpha3: 'SMR',
-    numeric: 674,
-    latitude: 43.7667,
-    longitude: 12.4167,
-    continent: 'Europe',
-    map: 'https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/sm/512.png',
-  },
-  {
     country: 'Serbia',
     alpha2: 'RS',
     alpha3: 'SRB',

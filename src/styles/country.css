@@ -25,3 +25,8 @@
 .dark {
   background-color: hsl(219, 45%, 45%);
 }
+
+img {
+  display: block;
+  margin-inline: auto;
+}
