@@ -24,6 +24,10 @@
   padding: 1rem 0;
 }
 
+.country-info {
+  padding: 1rem;
+}
+
 .pollution-table {
   width: 100%;
   margin-block: 1rem;
