@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import '../../styles/details.css';
-import Table from 'react-bootstrap/Table';
+/* eslint-disable operator-linebreak */
+import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { getPollutionData } from '../../redux/slice';
-import Loading from '../../imgs/loading.gif';
 import data from '../../data/data';
 import NavBar from '../props/NavBar';
 import Footer from '../props/Footer';
 import back from '../../imgs/back.png';
+import Loading from '../../imgs/loading.gif';
+import '../../styles/details.css';
 
 function Details() {
   const { country } = useParams();
@@ -33,46 +33,55 @@ function Details() {
   return (
     <div>
       <NavBar />
-      <div className="back-btn container">
-        <button type="button" onClick={() => navigate('/')}>
-          <img src={back} alt="Back" />
+      <div className="bg-main back-container">
+        <button
+          className="back-btn text-neutral-100"
+          type="button"
+          onClick={() => navigate('/')}
+        >
+          <img
+            width={20}
+            height={20}
+            className="back-icon"
+            src={back}
+            alt="Back"
+          />
           Back Home
         </button>
       </div>
-      <div className="back-home" />
       {!loading ? (
-        <div className="county-details">
+        <div className="county-details bg-main">
           <div className="country-info">
-            <h1>{name}</h1>
-            <img src={map} alt="" />
+            <h1 className="text-neutral-100">{name}</h1>
+            <img width={200} height={200} src={map} alt="country map" />
           </div>
           <div className="pollution-data">
-            <Table striped>
+            <table>
               <thead>
                 <tr>
-                  <th>#</th>
-                  <th>Gas</th>
-                  <th>Concentration</th>
+                  <th className="text-neutral-100">#</th>
+                  <th className="text-neutral-100">Gas</th>
+                  <th className="text-neutral-100">Concentration</th>
                 </tr>
               </thead>
               <tbody>
-                {pollutionData
-                  && pollutionData.map((data, i) => (
+                {pollutionData &&
+                  pollutionData.map((data, i) => (
                     <tr key={data[0]}>
-                      <td>{i + 1}</td>
-                      <td>{data[0]}</td>
-                      <td>
+                      <td className="text-neutral-100">{i + 1}</td>
+                      <td className="text-neutral-100">{data[0]}</td>
+                      <td className="text-neutral-100">
                         {data[1]}
                         µg/m3
                       </td>
                     </tr>
                   ))}
               </tbody>
-            </Table>
+            </table>
           </div>
         </div>
       ) : (
-        <div className="loading-data">
+        <div className="loading-data bg-main">
           <img src={Loading} alt="" />
         </div>
       )}
