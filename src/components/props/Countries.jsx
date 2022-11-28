@@ -23,6 +23,7 @@ function Countries() {
     setInfo(arr);
   };
 
+  let mode = ['light', 'dark'];
   return (
     <div className="container">
       <section className="banner-section">
@@ -51,31 +52,33 @@ function Countries() {
           <h3 className="text-neutral-100 p-i-100">Countries</h3>
         </div>
         <div className="card-container">
-          {info.map((country, index) => (
-            <div className="card dark" key={country.alpha3}>
-              {index + 1}
-              <div className="">
-                <img
-                  width={130}
-                  height={140}
-                  alt="card"
-                  className="img-fluid"
-                  src={country.map}
-                />
-                <div>
-                  <Link to={`/${country.country}`}>
-                    <h6 className="country-name">{country.country}</h6>
-                  </Link>
-                </div>
-                <div>
-                  <small className="text-muted">
-                    ALPHA:
-                    {country.alpha3}
-                  </small>
+          {info.map((country, index) => {
+            mode = (index + 1) % 2 === 0 ? [...mode.reverse()] : mode;
+            return (
+              <div className={`card ${mode[0]}`} key={country.alpha3}>
+                <div className="">
+                  <img
+                    width={130}
+                    height={140}
+                    alt="card"
+                    className="img-fluid"
+                    src={country.map}
+                  />
+                  <div>
+                    <Link to={`/${country.country}`}>
+                      <h6 className="country-name">{country.country}</h6>
+                    </Link>
+                  </div>
+                  <div>
+                    <small className="text-muted">
+                      ALPHA:
+                      {country.alpha3}
+                    </small>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </div>
