@@ -30,7 +30,8 @@ function Countries() {
         <div className="banner">
           <div className="banner-text">
             <h1 className="text-neutral-100 primary-heading text-center">
-              Get air quality data Where you live.
+              Air pollution is the contamination of air due to the presence of
+              substances.
             </h1>
           </div>
           <div className="search">
