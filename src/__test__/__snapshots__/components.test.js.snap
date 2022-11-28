@@ -2912,19 +2912,25 @@ Object {
           </button>
         </div>
         <div
-          class="contact-info shadow p-3 mb-5 bg-white"
+          class="contact-container bg-main"
         >
-          <h1>
-            Contact Information
-          </h1>
-          <p
-            class="text-secondary"
-          >
-            Contact us via mail (mahdi.sohaily4030@gmail.com)
-          </p>
-          <p>
-            Or click on any of the social media links below to reach me directly.
-          </p>
+          <div>
+            <h1
+              class="text-neutral-100"
+            >
+              Contact Information
+            </h1>
+            <p
+              class="text-neutral-100"
+            >
+              Contact us via mail (mahdi.sohaily4030@gmail.com)
+            </p>
+            <p
+              class="text-neutral-100"
+            >
+              Or click on any of the social media links below to reach me directly.
+            </p>
+          </div>
         </div>
         <div>
           <div
@@ -3088,19 +3094,25 @@ Object {
         </button>
       </div>
       <div
-        class="contact-info shadow p-3 mb-5 bg-white"
+        class="contact-container bg-main"
       >
-        <h1>
-          Contact Information
-        </h1>
-        <p
-          class="text-secondary"
-        >
-          Contact us via mail (mahdi.sohaily4030@gmail.com)
-        </p>
-        <p>
-          Or click on any of the social media links below to reach me directly.
-        </p>
+        <div>
+          <h1
+            class="text-neutral-100"
+          >
+            Contact Information
+          </h1>
+          <p
+            class="text-neutral-100"
+          >
+            Contact us via mail (mahdi.sohaily4030@gmail.com)
+          </p>
+          <p
+            class="text-neutral-100"
+          >
+            Or click on any of the social media links below to reach me directly.
+          </p>
+        </div>
       </div>
       <div>
         <div
