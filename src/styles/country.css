@@ -16,14 +16,12 @@
 }
 
 .card {
-  height: 160px;
+  height: 220px;
   padding: 1rem;
-}
-
-.card:nth-child(odd) {
+  text-align: center;
   background-color: hsl(219, 45%, 48%);
 }
 
-.card:nth-child(even) {
+.dark {
   background-color: hsl(219, 45%, 45%);
 }

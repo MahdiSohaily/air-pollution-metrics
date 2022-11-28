@@ -22,6 +22,7 @@ function Countries() {
     });
     setInfo(arr);
   };
+
   return (
     <div className="container">
       <section className="banner-section">
@@ -50,10 +51,17 @@ function Countries() {
           <h3 className="text-neutral-100 p-i-100">Countries</h3>
         </div>
         <div className="card-container">
-          {info.map((country) => (
-            <div className="card" key={country.alpha3}>
+          {info.map((country, index) => (
+            <div className="card dark" key={country.alpha3}>
+              {index + 1}
               <div className="">
-                <img alt="card" className="img-fluid" src={country.map} />
+                <img
+                  width={130}
+                  height={140}
+                  alt="card"
+                  className="img-fluid"
+                  src={country.map}
+                />
                 <div>
                   <Link to={`/${country.country}`}>
                     <h6 className="country-name">{country.country}</h6>
