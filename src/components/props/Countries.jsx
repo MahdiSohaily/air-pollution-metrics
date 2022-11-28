@@ -47,10 +47,7 @@ function Countries() {
       </section>
       <div>
         <div className="countries-heading bg-dodgerblue">
-          <h2 className="text-center text-neutral-100">Countries</h2>
-          <h5 className="text-center text-neutral-100">
-            --Browse Air pollution by Country--
-          </h5>
+          <h3 className="text-neutral-100 p-i-100">Countries</h3>
         </div>
         <div className="card-container">
           {info.map((country) => (

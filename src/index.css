@@ -11,7 +11,7 @@
   --fs-300: 0.6875rem;
   --fs-400: 0.8125rem;
   --fs-500: 1.25rem;
-  --fs-900: 2rem;
+  --fs-900: 1.8rem;
 }
 
 .primary-heading {
@@ -126,4 +126,8 @@ select {
 
 .border-primary-400 {
   border: 2px solid #a775f1;
+}
+
+.p-i-100 {
+  padding-inline: 1rem;
 }
