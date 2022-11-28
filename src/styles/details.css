@@ -21,13 +21,23 @@
 }
 
 .county-details {
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 .pollution-table {
   width: 100%;
-  text-align: center;
   margin-block: 1rem;
+}
+
+.data-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.data-item:nth-child(odd) {
+  background-color: hsl(219, 45%, 39%);
 }
 
 .loading-data {

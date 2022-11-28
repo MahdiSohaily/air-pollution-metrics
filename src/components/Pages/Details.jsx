@@ -60,9 +60,14 @@ function Details() {
               {pollutionData &&
                 pollutionData.map((data) => (
                   <li className="data-item" key={data[0]}>
-                    <p className="text-neutral-100">Concentration</p>
+                    <p className="text-neutral-100">
+                      Gas:
+                      {' '}
+                      {data[0]}
+                    </p>
                     <p className="text-neutral-100">
                       {data[1]}
+                      {' '}
                       µg/m3
                     </p>
                   </li>
