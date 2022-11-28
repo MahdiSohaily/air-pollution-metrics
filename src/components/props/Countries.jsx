@@ -64,15 +64,14 @@ function Countries() {
                     className="img-fluid"
                     src={country.map}
                   />
-                  <div>
-                    <h6 className="country-name">{country.country}</h6>
-                  </div>
-                  <div>
-                    <small className="text-muted">
-                      ALPHA:
-                      {country.alpha3}
-                    </small>
-                  </div>
+                  <h3 className="country-name text-neutral-100">
+                    {country.country}
+                  </h3>
+                  <small className="text-neutral-100">
+                    ALPHA:
+                    {' '}
+                    {country.alpha3}
+                  </small>
                 </Link>
               </div>
             );
