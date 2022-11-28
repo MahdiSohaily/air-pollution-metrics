@@ -33,6 +33,4 @@ export const polutionSlice = createSlice({
   },
 });
 
-// export const { increment, decrement, incrementByAmount } = counterSlice.actions;
-
 export default polutionSlice.reducer;
