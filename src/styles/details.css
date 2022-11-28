@@ -1,0 +1,65 @@
+.back-btn {
+    margin: 20px 0;
+  }
+  
+  .back-btn img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .back-btn button {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .county-details {
+    text-align: center;
+  }
+  
+  .county-details img {
+    width: 100%;
+    height: 30vh;
+  }
+  
+  .pollution-data {
+    border: 1px solid grey;
+    width: 95%;
+    margin: 20px auto;
+  }
+  
+  @media (min-width: 766px) {
+    .pollution-data {
+      width: 80%;
+      margin: 50px auto;
+    }
+  
+    .county-details img {
+      width: 100%;
+      height: 50vh;
+    }
+  }
+  
+  .country-info {
+    width: 50%;
+    margin: auto;
+  }
+  
+  .loading-data {
+    width: 30%;
+    height: 60vh;
+    margin: auto;
+  }
+  
+  .loading-data img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media (max-width: 760px) {
+    .loading-data {
+      width: 80%;
+      height: 60vh;
+      margin: auto;
+    }
+  }
+  
