@@ -25,10 +25,10 @@ function Countries() {
   return (
     <div className="container">
       <section className="banner-section">
-        <div className="banner shadow p-3 mb-5">
+        <div className="banner">
           <div className="banner-text">
-            <h1 className="">Get air quality data </h1>
-            <h2>Where you live.</h2>
+            <h1 className="text-neutral-100">Get air quality data </h1>
+            <h2 className="text-neutral-100">Where you live.</h2>
           </div>
           <div className="search">
             <form className="d-flex">
@@ -62,7 +62,6 @@ function Countries() {
                 <div>
                   <small className="text-muted">
                     ALPHA:
-                    {' '}
                     {country.alpha3}
                   </small>
                 </div>

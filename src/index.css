@@ -55,7 +55,7 @@ body {
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
-  text-decoration-skip-ink: auto;
+  text-decoration: none;
 }
 
 /* Make images easier to work with */
@@ -89,104 +89,9 @@ select {
   }
 }
 
-/* Rocket section styles */
-.card {
-  flex-direction: column;
-  margin-bottom: 1rem;
-  gap: 1rem;
-}
-
-.mission {
-  width: 200px;
-}
-
-.description {
-  width: 650px;
-}
-
-.status {
-  width: 150px;
-}
-
-.table {
-  border: 1px solid rgb(185, 188, 194);
-  border-radius: 4px;
-}
-
-@media screen and (min-width: 40rem) {
-  .card {
-    flex-direction: row;
-  }
-
-  .card-header {
-    flex: 23%;
-  }
-
-  .card-body {
-    flex: 77%;
-  }
-
-  .card-image {
-    width: 280px;
-    height: 180px;
-  }
-}
-
-.card-image {
-  width: 100%;
-  height: 180px;
-}
-
-.rocket-description {
-  font-size: 1rem;
-  padding-block: 1rem;
-}
-
-.loader {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-}
-
-.badge {
-  background-color: rgb(72, 154, 235);
-  padding-inline: 0.5rem;
-  margin-right: 0.5rem;
-  border-radius: 0.5rem;
-  font-size: 14px;
-}
-
-/* Profile styles */
-.mission-list,
-.rocket-list {
-  flex: 1;
-  padding: 1rem 1.5rem;
-}
-
-.rockets-nav {
-  margin-block: 1rem;
-  border: 1px solid var(--clr-secondary-500);
-  border-radius: 0.5rem;
-}
-
-.nav-item {
-  padding: 1.5rem;
-}
-
-.nav-item:not(:last-child) {
-  border-bottom: 1px solid var(--clr-secondary-500);
-}
-
 /* Utility classes */
 .d-flex {
   display: flex;
-}
-
-.wrapper {
-  max-width: 85%;
-  margin-inline: auto;
-  padding-inline: 1rem;
 }
 
 .bg-primary-400 {

@@ -4,50 +4,22 @@ header {
 }
 
 .navBar {
-  align-items: center;
   justify-content: space-between;
-  padding-block: 1rem;
-}
-
-.navBrand {
   align-items: center;
+  padding: 1rem;
 }
 
-.menuNav {
-  align-items: center;
-}
-
-.logo {
-  width: 50px;
-  height: auto;
-}
-
-.menuNav {
+.navMenu {
   gap: 1.5rem;
-}
-
-.nav-link a {
-  text-decoration: none;
-}
-
-.nav-link a.active {
-  text-decoration: underline;
 }
 
 .action-button {
   cursor: pointer;
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
-}
-
-.free {
   background-color: dodgerblue;
   color: var(--clr-neutral-100);
   border: none;
-}
-
-.reserved {
-  border: 1px solid var(--clr-secondary-400);
 }
 
 @media screen and (max-width: 40em) {

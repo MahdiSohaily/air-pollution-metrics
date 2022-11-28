@@ -5,8 +5,8 @@ import '../../styles/nav-banner.css';
 function NavBar() {
   return (
     <header>
-      <nav className="navBar d-flex wrapper">
-        <div className="navBrand d-flex">
+      <nav className="d-flex navBar">
+        <div className="navBrand">
           <img
             width={50}
             height={50}
@@ -15,23 +15,17 @@ function NavBar() {
             alt="Site logo"
           />
         </div>
-        <ul className="menuNav d-flex">
-          <li className="nav-link">
-            <NavLink className="text-secondary-400" to="/">
-              Home
-            </NavLink>
-          </li>
-          <li className="nav-link">
-            <NavLink className="text-secondary-400" to="/contact">
-              Contact Us
-            </NavLink>
-          </li>
-          <li className="nav-link">
-            <button className="action-button free" type="button">
-              Sign-Up for free
-            </button>
-          </li>
-        </ul>
+        <div className="d-flex navMenu">
+          <NavLink className="text-secondary-400" to="/">
+            Home
+          </NavLink>
+          <NavLink className="text-secondary-400" to="/contact">
+            Contact Us
+          </NavLink>
+          <button className="action-button" type="button">
+            Sign-Up for free
+          </button>
+        </div>
       </nav>
     </header>
   );
