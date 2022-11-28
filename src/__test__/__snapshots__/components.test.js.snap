@@ -1,0 +1,4324 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Profile and Mission Components Testing MissionContainer components 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div>
+          <nav
+            class="navbar navbar-expand-lg navbar-light bg-light"
+          >
+            <div
+              class="container container-fluid"
+            >
+              <span
+                class="navbar-brand"
+              >
+                <a
+                  href="/"
+                >
+                  <img
+                    alt="Site logo"
+                    src="logo.PNG"
+                  />
+                </a>
+              </span>
+              <button
+                aria-controls="navbarScroll"
+                aria-label="Toggle navigation"
+                class="navbar-toggler collapsed"
+                type="button"
+              >
+                <span
+                  class="navbar-toggler-icon"
+                />
+              </button>
+              <div
+                class="navbar-collapse collapse"
+                id="navbarScroll"
+              >
+                <div
+                  class="me-auto my-2 my-lg-0 nav-links navbar-nav navbar-nav-scroll"
+                  style="max-height: 100px;"
+                >
+                  <a
+                    href="/"
+                  >
+                    <h5
+                      class="nav-link"
+                    >
+                      Home
+                    </h5>
+                  </a>
+                  <a
+                    href="/contact"
+                  >
+                    <h5
+                      class="nav-link"
+                    >
+                      Contact Us
+                    </h5>
+                  </a>
+                </div>
+                <form
+                  class="d-flex"
+                >
+                  <button
+                    class="btn btn-outline-success"
+                    type="button"
+                  >
+                    Sign-Up for free
+                  </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div
+          class="countries-container"
+        >
+          <div
+            class="container"
+          >
+            <section
+              class="banner-section"
+            >
+              <div
+                class="banner shadow p-3 mb-5 bg-white"
+              >
+                <div
+                  class="banner-text"
+                >
+                  <h1
+                    class=""
+                  >
+                    Get air quality data 
+                  </h1>
+                  <h2>
+                    Where you live.
+                  </h2>
+                </div>
+                <div
+                  class="search"
+                >
+                  <form
+                    class="d-flex"
+                  >
+                    <input
+                      aria-label="Search"
+                      class="me-2 form-control"
+                      placeholder="Find your country"
+                      type="search"
+                      value=""
+                    />
+                  </form>
+                </div>
+              </div>
+            </section>
+            <div
+              class="card-group"
+            >
+              <div
+                class="countries-heading"
+              >
+                <h1>
+                  Countries
+                </h1>
+                <h5>
+                  --Browse Air pollution by Country--
+                </h5>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/al/1024.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Albania"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Albania
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        ALB
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/ad/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Andorra"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Andorra
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        AND
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/at/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Austria"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Austria
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        AUT
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/by/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Belarus"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Belarus
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        BLR
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/be/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Belgium"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Belgium
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        BEL
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/ba/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Bosnia and Herzegovina"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Bosnia and Herzegovina
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        BIH
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/bg/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Bulgaria"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Bulgaria
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        BGR
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/hr/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Croatia"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Croatia
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        HRV
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/cz/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Czech Republic"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Czech Republic
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        CZE
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/dk/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Denmark"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Denmark
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        DNK
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/ee/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Estonia"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Estonia
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        EST
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/fo/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Faroe Islands"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Faroe Islands
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        FRO
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/fi/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Finland"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Finland
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        FIN
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/fr/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/France"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          France
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        FRA
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/de/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Germany"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Germany
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        DEU
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/gi/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Gibraltar"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Gibraltar
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        GIB
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/gr/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Greece"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Greece
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        GRC
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/hu/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Hungary"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Hungary
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        HUN
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/is/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Iceland"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Iceland
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        ISL
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/ie/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Ireland"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Ireland
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        IRL
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/im/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Isle of Man"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Isle of Man
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        IMN
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/it/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Italy"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Italy
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        ITA
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/lv/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Latvia"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Latvia
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        LVA
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/li/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Liechtenstein"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Liechtenstein
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        LIE
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/lt/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Lithuania"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Lithuania
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        LTU
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/lu/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Luxembourg"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Luxembourg
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        LUX
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/mt/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Malta"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Malta
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        MLT
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/mc/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Monaco"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Monaco
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        MCO
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/me/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Montenegro"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Montenegro
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        MNE
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/nl/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Netherlands"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Netherlands
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        NLD
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/no/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Norway"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Norway
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        NOR
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/pl/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Poland"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Poland
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        POL
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/pt/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Portugal"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Portugal
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        PRT
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/ro/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Romania"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Romania
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        ROU
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/sm/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/San Marino"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          San Marino
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        SMR
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/rs/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Serbia"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Serbia
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        SRB
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/sk/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Slovakia"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Slovakia
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        SVK
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/si/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Slovenia"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Slovenia
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        SVN
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/es/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Spain"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Spain
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        ESP
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/se/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Sweden"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Sweden
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        SWE
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/ch/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Switzerland"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Switzerland
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        CHE
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/ua/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/Ukraine"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          Ukraine
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        UKR
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-4 card-card"
+                >
+                  <div
+                    class="shadow p-3 mb-5 bg-white card"
+                  >
+                    <img
+                      class="card-img-top img-fluid"
+                      src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/gb/512.png"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <a
+                        href="/United Kingdom"
+                      >
+                        <h1
+                          class="country-name"
+                        >
+                          United Kingdom
+                        </h1>
+                      </a>
+                    </div>
+                    <div
+                      class="card-footer"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        ALPHA:
+                         
+                        GBR
+                      </small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="socials-layer"
+          >
+            <a
+              href="https://facebook.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                alt=""
+                src="facebook.png"
+              />
+            </a>
+            <a
+              href="https://www.twitter.com/alhaji_deen1"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                alt=""
+                src="twitter.png"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/nurudeensalifu"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                alt=""
+                src="linkedin.png"
+              />
+            </a>
+            <a
+              href="https://github.com/Alhajideen"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                alt=""
+                src="github.png"
+              />
+            </a>
+            <a
+              href="https://instagram.com/Alhaji_deen1"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                alt=""
+                src="instagram.png"
+              />
+            </a>
+          </div>
+          <div
+            class="copyright"
+          >
+            <h4>
+              © Salifu Nurudeen
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div>
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light"
+        >
+          <div
+            class="container container-fluid"
+          >
+            <span
+              class="navbar-brand"
+            >
+              <a
+                href="/"
+              >
+                <img
+                  alt="Site logo"
+                  src="logo.PNG"
+                />
+              </a>
+            </span>
+            <button
+              aria-controls="navbarScroll"
+              aria-label="Toggle navigation"
+              class="navbar-toggler collapsed"
+              type="button"
+            >
+              <span
+                class="navbar-toggler-icon"
+              />
+            </button>
+            <div
+              class="navbar-collapse collapse"
+              id="navbarScroll"
+            >
+              <div
+                class="me-auto my-2 my-lg-0 nav-links navbar-nav navbar-nav-scroll"
+                style="max-height: 100px;"
+              >
+                <a
+                  href="/"
+                >
+                  <h5
+                    class="nav-link"
+                  >
+                    Home
+                  </h5>
+                </a>
+                <a
+                  href="/contact"
+                >
+                  <h5
+                    class="nav-link"
+                  >
+                    Contact Us
+                  </h5>
+                </a>
+              </div>
+              <form
+                class="d-flex"
+              >
+                <button
+                  class="btn btn-outline-success"
+                  type="button"
+                >
+                  Sign-Up for free
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div
+        class="countries-container"
+      >
+        <div
+          class="container"
+        >
+          <section
+            class="banner-section"
+          >
+            <div
+              class="banner shadow p-3 mb-5 bg-white"
+            >
+              <div
+                class="banner-text"
+              >
+                <h1
+                  class=""
+                >
+                  Get air quality data 
+                </h1>
+                <h2>
+                  Where you live.
+                </h2>
+              </div>
+              <div
+                class="search"
+              >
+                <form
+                  class="d-flex"
+                >
+                  <input
+                    aria-label="Search"
+                    class="me-2 form-control"
+                    placeholder="Find your country"
+                    type="search"
+                    value=""
+                  />
+                </form>
+              </div>
+            </div>
+          </section>
+          <div
+            class="card-group"
+          >
+            <div
+              class="countries-heading"
+            >
+              <h1>
+                Countries
+              </h1>
+              <h5>
+                --Browse Air pollution by Country--
+              </h5>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/al/1024.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Albania"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Albania
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      ALB
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/ad/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Andorra"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Andorra
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      AND
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/at/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Austria"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Austria
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      AUT
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/by/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Belarus"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Belarus
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      BLR
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/be/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Belgium"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Belgium
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      BEL
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/ba/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Bosnia and Herzegovina"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Bosnia and Herzegovina
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      BIH
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/bg/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Bulgaria"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Bulgaria
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      BGR
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/hr/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Croatia"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Croatia
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      HRV
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/cz/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Czech Republic"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Czech Republic
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      CZE
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/dk/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Denmark"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Denmark
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      DNK
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/ee/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Estonia"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Estonia
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      EST
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/fo/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Faroe Islands"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Faroe Islands
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      FRO
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/fi/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Finland"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Finland
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      FIN
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/fr/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/France"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        France
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      FRA
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/de/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Germany"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Germany
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      DEU
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/gi/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Gibraltar"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Gibraltar
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      GIB
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/gr/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Greece"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Greece
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      GRC
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/hu/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Hungary"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Hungary
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      HUN
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/is/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Iceland"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Iceland
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      ISL
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/ie/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Ireland"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Ireland
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      IRL
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/im/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Isle of Man"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Isle of Man
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      IMN
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/it/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Italy"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Italy
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      ITA
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/lv/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Latvia"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Latvia
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      LVA
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/li/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Liechtenstein"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Liechtenstein
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      LIE
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/lt/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Lithuania"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Lithuania
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      LTU
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/lu/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Luxembourg"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Luxembourg
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      LUX
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/mt/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Malta"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Malta
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      MLT
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/mc/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Monaco"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Monaco
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      MCO
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/me/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Montenegro"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Montenegro
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      MNE
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/nl/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Netherlands"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Netherlands
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      NLD
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/no/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Norway"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Norway
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      NOR
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/pl/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Poland"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Poland
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      POL
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/pt/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Portugal"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Portugal
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      PRT
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/ro/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Romania"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Romania
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      ROU
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/sm/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/San Marino"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        San Marino
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      SMR
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/rs/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Serbia"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Serbia
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      SRB
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/sk/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Slovakia"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Slovakia
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      SVK
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/si/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Slovenia"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Slovenia
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      SVN
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/es/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Spain"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Spain
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      ESP
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/se/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Sweden"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Sweden
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      SWE
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/ch/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Switzerland"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Switzerland
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      CHE
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/ua/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/Ukraine"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        Ukraine
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      UKR
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-md-4 card-card"
+              >
+                <div
+                  class="shadow p-3 mb-5 bg-white card"
+                >
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/gb/512.png"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <a
+                      href="/United Kingdom"
+                    >
+                      <h1
+                        class="country-name"
+                      >
+                        United Kingdom
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      ALPHA:
+                       
+                      GBR
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="socials-layer"
+        >
+          <a
+            href="https://facebook.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt=""
+              src="facebook.png"
+            />
+          </a>
+          <a
+            href="https://www.twitter.com/alhaji_deen1"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt=""
+              src="twitter.png"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/nurudeensalifu"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt=""
+              src="linkedin.png"
+            />
+          </a>
+          <a
+            href="https://github.com/Alhajideen"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt=""
+              src="github.png"
+            />
+          </a>
+          <a
+            href="https://instagram.com/Alhaji_deen1"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt=""
+              src="instagram.png"
+            />
+          </a>
+        </div>
+        <div
+          class="copyright"
+        >
+          <h4>
+            © Salifu Nurudeen
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing Profile and Mission Components Testing MissionContainer components 2`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div>
+          <nav
+            class="navbar navbar-expand-lg navbar-light bg-light"
+          >
+            <div
+              class="container container-fluid"
+            >
+              <span
+                class="navbar-brand"
+              >
+                <a
+                  href="/"
+                >
+                  <img
+                    alt="Site logo"
+                    src="logo.PNG"
+                  />
+                </a>
+              </span>
+              <button
+                aria-controls="navbarScroll"
+                aria-label="Toggle navigation"
+                class="navbar-toggler collapsed"
+                type="button"
+              >
+                <span
+                  class="navbar-toggler-icon"
+                />
+              </button>
+              <div
+                class="navbar-collapse collapse"
+                id="navbarScroll"
+              >
+                <div
+                  class="me-auto my-2 my-lg-0 nav-links navbar-nav navbar-nav-scroll"
+                  style="max-height: 100px;"
+                >
+                  <a
+                    href="/"
+                  >
+                    <h5
+                      class="nav-link"
+                    >
+                      Home
+                    </h5>
+                  </a>
+                  <a
+                    href="/contact"
+                  >
+                    <h5
+                      class="nav-link"
+                    >
+                      Contact Us
+                    </h5>
+                  </a>
+                </div>
+                <form
+                  class="d-flex"
+                >
+                  <button
+                    class="btn btn-outline-success"
+                    type="button"
+                  >
+                    Sign-Up for free
+                  </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div
+          class="contact-info shadow p-3 mb-5 bg-white"
+        >
+          <h1>
+            Contact Infomation
+          </h1>
+          <p
+            class="text-secondary"
+          >
+            Contact us via mail @devjs.nurudeen@gmail.com
+          </p>
+          <p>
+            Or click on any of the social media links below to reach me directly.
+          </p>
+        </div>
+        <div>
+          <div
+            class="socials-layer"
+          >
+            <a
+              href="https://facebook.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                alt=""
+                src="facebook.png"
+              />
+            </a>
+            <a
+              href="https://www.twitter.com/alhaji_deen1"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                alt=""
+                src="twitter.png"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/nurudeensalifu"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                alt=""
+                src="linkedin.png"
+              />
+            </a>
+            <a
+              href="https://github.com/Alhajideen"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                alt=""
+                src="github.png"
+              />
+            </a>
+            <a
+              href="https://instagram.com/Alhaji_deen1"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                alt=""
+                src="instagram.png"
+              />
+            </a>
+          </div>
+          <div
+            class="copyright"
+          >
+            <h4>
+              © Salifu Nurudeen
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div>
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light"
+        >
+          <div
+            class="container container-fluid"
+          >
+            <span
+              class="navbar-brand"
+            >
+              <a
+                href="/"
+              >
+                <img
+                  alt="Site logo"
+                  src="logo.PNG"
+                />
+              </a>
+            </span>
+            <button
+              aria-controls="navbarScroll"
+              aria-label="Toggle navigation"
+              class="navbar-toggler collapsed"
+              type="button"
+            >
+              <span
+                class="navbar-toggler-icon"
+              />
+            </button>
+            <div
+              class="navbar-collapse collapse"
+              id="navbarScroll"
+            >
+              <div
+                class="me-auto my-2 my-lg-0 nav-links navbar-nav navbar-nav-scroll"
+                style="max-height: 100px;"
+              >
+                <a
+                  href="/"
+                >
+                  <h5
+                    class="nav-link"
+                  >
+                    Home
+                  </h5>
+                </a>
+                <a
+                  href="/contact"
+                >
+                  <h5
+                    class="nav-link"
+                  >
+                    Contact Us
+                  </h5>
+                </a>
+              </div>
+              <form
+                class="d-flex"
+              >
+                <button
+                  class="btn btn-outline-success"
+                  type="button"
+                >
+                  Sign-Up for free
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div
+        class="contact-info shadow p-3 mb-5 bg-white"
+      >
+        <h1>
+          Contact Infomation
+        </h1>
+        <p
+          class="text-secondary"
+        >
+          Contact us via mail @devjs.nurudeen@gmail.com
+        </p>
+        <p>
+          Or click on any of the social media links below to reach me directly.
+        </p>
+      </div>
+      <div>
+        <div
+          class="socials-layer"
+        >
+          <a
+            href="https://facebook.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt=""
+              src="facebook.png"
+            />
+          </a>
+          <a
+            href="https://www.twitter.com/alhaji_deen1"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt=""
+              src="twitter.png"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/nurudeensalifu"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt=""
+              src="linkedin.png"
+            />
+          </a>
+          <a
+            href="https://github.com/Alhajideen"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt=""
+              src="github.png"
+            />
+          </a>
+          <a
+            href="https://instagram.com/Alhaji_deen1"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt=""
+              src="instagram.png"
+            />
+          </a>
+        </div>
+        <div
+          class="copyright"
+        >
+          <h4>
+            © Salifu Nurudeen
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing Profile and Mission Components Testing MissionContainer components 3`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div>
+          <nav
+            class="navbar navbar-expand-lg navbar-light bg-light"
+          >
+            <div
+              class="container container-fluid"
+            >
+              <span
+                class="navbar-brand"
+              >
+                <a
+                  href="/"
+                >
+                  <img
+                    alt="Site logo"
+                    src="logo.PNG"
+                  />
+                </a>
+              </span>
+              <button
+                aria-controls="navbarScroll"
+                aria-label="Toggle navigation"
+                class="navbar-toggler collapsed"
+                type="button"
+              >
+                <span
+                  class="navbar-toggler-icon"
+                />
+              </button>
+              <div
+                class="navbar-collapse collapse"
+                id="navbarScroll"
+              >
+                <div
+                  class="me-auto my-2 my-lg-0 nav-links navbar-nav navbar-nav-scroll"
+                  style="max-height: 100px;"
+                >
+                  <a
+                    href="/"
+                  >
+                    <h5
+                      class="nav-link"
+                    >
+                      Home
+                    </h5>
+                  </a>
+                  <a
+                    href="/contact"
+                  >
+                    <h5
+                      class="nav-link"
+                    >
+                      Contact Us
+                    </h5>
+                  </a>
+                </div>
+                <form
+                  class="d-flex"
+                >
+                  <button
+                    class="btn btn-outline-success"
+                    type="button"
+                  >
+                    Sign-Up for free
+                  </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div
+          class="back-home"
+        />
+        <div
+          class="county-details"
+        >
+          <div
+            class="country-info"
+          >
+            <h1 />
+            <img
+              alt=""
+              src=""
+            />
+          </div>
+          <div
+            class="pollution-data"
+          >
+            <table
+              class="table table-striped"
+            >
+              <thead>
+                <tr>
+                  <th>
+                    #
+                  </th>
+                  <th>
+                    Gas
+                  </th>
+                  <th>
+                    Concentration
+                  </th>
+                </tr>
+              </thead>
+              <tbody />
+            </table>
+          </div>
+        </div>
+        <div>
+          <div
+            class="socials-layer"
+          >
+            <a
+              href="https://facebook.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                alt=""
+                src="facebook.png"
+              />
+            </a>
+            <a
+              href="https://www.twitter.com/alhaji_deen1"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                alt=""
+                src="twitter.png"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/nurudeensalifu"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                alt=""
+                src="linkedin.png"
+              />
+            </a>
+            <a
+              href="https://github.com/Alhajideen"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                alt=""
+                src="github.png"
+              />
+            </a>
+            <a
+              href="https://instagram.com/Alhaji_deen1"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                alt=""
+                src="instagram.png"
+              />
+            </a>
+          </div>
+          <div
+            class="copyright"
+          >
+            <h4>
+              © Salifu Nurudeen
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div>
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light"
+        >
+          <div
+            class="container container-fluid"
+          >
+            <span
+              class="navbar-brand"
+            >
+              <a
+                href="/"
+              >
+                <img
+                  alt="Site logo"
+                  src="logo.PNG"
+                />
+              </a>
+            </span>
+            <button
+              aria-controls="navbarScroll"
+              aria-label="Toggle navigation"
+              class="navbar-toggler collapsed"
+              type="button"
+            >
+              <span
+                class="navbar-toggler-icon"
+              />
+            </button>
+            <div
+              class="navbar-collapse collapse"
+              id="navbarScroll"
+            >
+              <div
+                class="me-auto my-2 my-lg-0 nav-links navbar-nav navbar-nav-scroll"
+                style="max-height: 100px;"
+              >
+                <a
+                  href="/"
+                >
+                  <h5
+                    class="nav-link"
+                  >
+                    Home
+                  </h5>
+                </a>
+                <a
+                  href="/contact"
+                >
+                  <h5
+                    class="nav-link"
+                  >
+                    Contact Us
+                  </h5>
+                </a>
+              </div>
+              <form
+                class="d-flex"
+              >
+                <button
+                  class="btn btn-outline-success"
+                  type="button"
+                >
+                  Sign-Up for free
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div
+        class="back-home"
+      />
+      <div
+        class="county-details"
+      >
+        <div
+          class="country-info"
+        >
+          <h1 />
+          <img
+            alt=""
+            src=""
+          />
+        </div>
+        <div
+          class="pollution-data"
+        >
+          <table
+            class="table table-striped"
+          >
+            <thead>
+              <tr>
+                <th>
+                  #
+                </th>
+                <th>
+                  Gas
+                </th>
+                <th>
+                  Concentration
+                </th>
+              </tr>
+            </thead>
+            <tbody />
+          </table>
+        </div>
+      </div>
+      <div>
+        <div
+          class="socials-layer"
+        >
+          <a
+            href="https://facebook.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt=""
+              src="facebook.png"
+            />
+          </a>
+          <a
+            href="https://www.twitter.com/alhaji_deen1"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt=""
+              src="twitter.png"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/nurudeensalifu"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt=""
+              src="linkedin.png"
+            />
+          </a>
+          <a
+            href="https://github.com/Alhajideen"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt=""
+              src="github.png"
+            />
+          </a>
+          <a
+            href="https://instagram.com/Alhaji_deen1"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt=""
+              src="instagram.png"
+            />
+          </a>
+        </div>
+        <div
+          class="copyright"
+        >
+          <h4>
+            © Salifu Nurudeen
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
