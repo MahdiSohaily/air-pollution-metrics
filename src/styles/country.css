@@ -1,62 +1,61 @@
 .container .row img {
-    width: 50%;
-    height: 15vh;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .container .row {
-    width: 100%;
-    margin: auto;
-  }
-  
-  .card-card {
-    width: 50% !important;
-    margin: 20px auto;
-    text-align: center;
-  }
-  
-  .countries-container {
-    text-align: center;
-  }
-  
-  .countries-container .countries-heading {
-    margin: 20px auto;
-    width: 90%;
-  }
-  
-  .countries-container .countries-heading h1 {
-    color: #44b276;
-    font-weight: 800;
-  }
-  
-  .countries-container .countries-heading h5 {
-    color: grey;
-  }
-  
-  .shadow a {
-    text-decoration: none;
-    color: black;
-  }
-  
+  width: 50%;
+  height: 15vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container .row {
+  width: 100%;
+  margin: auto;
+}
+
+.card-card {
+  width: 50% !important;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.countries-container {
+  text-align: center;
+}
+
+.countries-container .countries-heading {
+  margin: 20px auto;
+  width: 90%;
+}
+
+.countries-container .countries-heading h1 {
+  color: #44b276;
+  font-weight: 800;
+}
+
+.countries-container .countries-heading h5 {
+  color: grey;
+}
+
+.shadow a {
+  text-decoration: none;
+  color: black;
+}
+
+.country-name {
+  font-size: 10px;
+  line-height: 10px;
+}
+
+.text-muted {
+  font-size: 10px;
+}
+
+@media (min-width: 767px) {
   .country-name {
-    font-size: 10px;
-    line-height: 10px;
+    font-size: 20px;
+    line-height: 20px;
   }
-  
+
   .text-muted {
-    font-size: 10px;
+    font-size: 15px;
   }
-  
-  @media (min-width: 767px) {
-    .country-name {
-      font-size: 20px;
-      line-height: 20px;
-    }
-  
-    .text-muted {
-      font-size: 15px;
-    }
-  }
-  
+}
