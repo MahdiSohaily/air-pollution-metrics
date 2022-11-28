@@ -1,9 +1,15 @@
 import { NavLink, Outlet } from 'react-router-dom';
+import { useRef } from 'react';
 import open from '../../imgs/open.png';
 import close from '../../imgs/close.png';
 import '../../styles/nav-banner.css';
 
 function NavBar() {
+  const openMenu = useRef();
+  const closeMenu = useRef();
+
+  const handleOpenMenu = () => {};
+  const handleCloseMenu = () => {};
   return (
     <>
       <header className="bg-dodgerblue">
@@ -12,18 +18,22 @@ function NavBar() {
             <p className="text-neutral-100">Air Pollution Metrics</p>
           </div>
           <div>
-            <img width={20} height={20} src={open} alt="menu" />
+            <a ref={openMenu} href="j" onClick={handleOpenMenu}>
+              <img width={20} height={20} src={open} alt="menu" />
+            </a>
           </div>
         </nav>
       </header>
       <div className="navMenu">
-        <img
-          style={{ position: 'absolute', right: '1rem' }}
-          width={15}
-          height={15}
-          src={close}
-          alt="menu"
-        />
+        <a href="f" ref={closeMenu} onClick={handleCloseMenu}>
+          <img
+            style={{ position: 'absolute', right: '1rem' }}
+            width={15}
+            height={15}
+            src={close}
+            alt="menu"
+          />
+        </a>
         <ul>
           <li className="nav-link">
             <NavLink className="text-neutral-100" to="/">
