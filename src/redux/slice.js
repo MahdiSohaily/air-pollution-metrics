@@ -8,7 +8,7 @@ export const getPollutionData = createAsyncThunk(
     const data = await fetch(url);
     const pollutionInfo = await data.json();
     return pollutionInfo;
-  }
+  },
 );
 
 export const polutionSlice = createSlice({
