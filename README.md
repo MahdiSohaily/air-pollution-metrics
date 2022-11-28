@@ -48,7 +48,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Click here to see live Demo](https://www.loom.com/share/378c9c2eab284aa6b4d1546b755a56ba)
+- [Click here to see live Demo](https://air-pollution-metrics.netlify.app/)
 - [presentation video](https://www.loom.com/share/d2906f988b1b482abd35d05cdd5f3fd7)
 
 ## 💻 Getting Started <a name="getting-started"></a>
