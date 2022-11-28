@@ -56,28 +56,18 @@ function Details() {
             <img width={200} height={200} src={map} alt="country map" />
           </div>
           <div className="pollution-data">
-            <table className="pollution-table">
-              <thead>
-                <tr>
-                  <th className="text-neutral-100">#</th>
-                  <th className="text-neutral-100">Gas</th>
-                  <th className="text-neutral-100">Concentration</th>
-                </tr>
-              </thead>
-              <tbody>
-                {pollutionData &&
-                  pollutionData.map((data, i) => (
-                    <tr key={data[0]}>
-                      <td className="text-neutral-100">{i + 1}</td>
-                      <td className="text-neutral-100">{data[0]}</td>
-                      <td className="text-neutral-100">
-                        {data[1]}
-                        µg/m3
-                      </td>
-                    </tr>
-                  ))}
-              </tbody>
-            </table>
+            <ul className="pollution-table">
+              {pollutionData &&
+                pollutionData.map((data) => (
+                  <li className="data-item" key={data[0]}>
+                    <p className="text-neutral-100">Concentration</p>
+                    <p className="text-neutral-100">
+                      {data[1]}
+                      µg/m3
+                    </p>
+                  </li>
+                ))}
+            </ul>
           </div>
         </div>
       ) : (

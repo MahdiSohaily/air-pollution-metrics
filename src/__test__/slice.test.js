@@ -2,7 +2,7 @@ import sliceReducer, { getPollutionData } from '../redux/slice';
 
 const initialState = [];
 describe('Tests for Redux in project', () => {
-  it('Test if the state is initialy an empty array', () => {
+  it('Test if the state is initially an empty array', () => {
     expect(sliceReducer(initialState, [])).toEqual([]);
   });
 
