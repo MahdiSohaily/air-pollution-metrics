@@ -34,4 +34,26 @@ header {
   text-decoration: underline;
 }
 
+.action-button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.free {
+  background-color: dodgerblue;
+  color: var(--clr-neutral-100);
+  border: none;
+}
+
+.reserved {
+  border: 1px solid var(--clr-secondary-400);
+}
+
+@media screen and (max-width: 40em) {
+  .action-button {
+    display: none;
+  }
+}
+
 /* End of header section styles */
