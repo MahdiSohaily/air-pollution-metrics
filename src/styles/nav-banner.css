@@ -10,7 +10,23 @@ header {
 }
 
 .navMenu {
+  position: fixed;
+  height: 100vh;
+  width: 200px;
+  right: 0;
+  top: 0;
+  bottom: 0;
   gap: 1.5rem;
+  background-color: #474545;
+  padding-block: 1rem;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+}
+
+.nav-link a {
+  text-decoration: none;
 }
 
 .action-button {
