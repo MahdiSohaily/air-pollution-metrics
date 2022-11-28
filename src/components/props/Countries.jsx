@@ -27,8 +27,9 @@ function Countries() {
       <section className="banner-section">
         <div className="banner">
           <div className="banner-text">
-            <h1 className="text-neutral-100">Get air quality data </h1>
-            <h2 className="text-neutral-100">Where you live.</h2>
+            <h1 className="text-neutral-100 primary-heading text-center">
+              Get air quality data Where you live.
+            </h1>
           </div>
           <div className="search">
             <form className="d-flex">
@@ -45,14 +46,16 @@ function Countries() {
         </div>
       </section>
       <div>
-        <div className="countries-heading">
-          <h1>Countries</h1>
-          <h5>--Browse Air pollution by Country--</h5>
+        <div className="countries-heading bg-dodgerblue">
+          <h2 className="text-center text-neutral-100">Countries</h2>
+          <h5 className="text-center text-neutral-100">
+            --Browse Air pollution by Country--
+          </h5>
         </div>
-        <div className="row">
+        <div className="card-container">
           {info.map((country) => (
-            <div className="col-sm-6 col-md-4 card-card" key={country.alpha3}>
-              <div className="shadow p-3 mb-5 bg-white">
+            <div className="card" key={country.alpha3}>
+              <div className="">
                 <img alt="card" className="img-fluid" src={country.map} />
                 <div>
                   <Link to={`/${country.country}`}>

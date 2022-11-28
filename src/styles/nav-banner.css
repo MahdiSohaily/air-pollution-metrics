@@ -6,7 +6,7 @@ header {
 .navBar {
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .navMenu {

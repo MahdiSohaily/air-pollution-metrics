@@ -4,7 +4,7 @@ import '../../styles/nav-banner.css';
 
 function NavBar() {
   return (
-    <header>
+    <header className="bg-dodgerblue">
       <nav className="d-flex navBar">
         <div className="navBrand">
           <img
@@ -16,10 +16,10 @@ function NavBar() {
           />
         </div>
         <div className="d-flex navMenu">
-          <NavLink className="text-secondary-400" to="/">
+          <NavLink className="text-neutral-100" to="/">
             Home
           </NavLink>
-          <NavLink className="text-secondary-400" to="/contact">
+          <NavLink className="text-neutral-100" to="/contact">
             Contact Us
           </NavLink>
           <button className="action-button" type="button">

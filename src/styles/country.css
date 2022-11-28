@@ -1,3 +1,28 @@
 .container {
   background-color: hsl(219, 45%, 48%);
 }
+
+.banner-section {
+  padding: 2rem;
+}
+
+.countries-heading {
+  padding: 0;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card {
+  height: 160px;
+}
+
+.card:nth-child(odd) {
+  background-color: hsl(219, 45%, 48%);
+}
+
+.card:nth-child(even) {
+  background-color: hsl(219, 45%, 45%);
+}
