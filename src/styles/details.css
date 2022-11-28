@@ -24,6 +24,24 @@
   padding: 1rem;
 }
 
+.pollution-table {
+  width: 100%;
+  text-align: center;
+  margin-block: 1rem;
+}
+
+.pollution-table,
+tr,
+td,
+th {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0.25rem 1rem;
+}
+
 .loading-data {
   height: 100vh;
   display: flex;

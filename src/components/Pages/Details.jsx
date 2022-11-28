@@ -56,7 +56,7 @@ function Details() {
             <img width={200} height={200} src={map} alt="country map" />
           </div>
           <div className="pollution-data">
-            <table>
+            <table className="pollution-table">
               <thead>
                 <tr>
                   <th className="text-neutral-100">#</th>
