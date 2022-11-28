@@ -56,7 +56,7 @@ function Countries() {
             mode = (index + 1) % 2 === 0 ? [...mode.reverse()] : mode;
             return (
               <div className={`card ${mode[0]}`} key={country.alpha3}>
-                <div className="">
+                <Link to={`/${country.country}`}>
                   <img
                     width={130}
                     height={140}
@@ -65,9 +65,7 @@ function Countries() {
                     src={country.map}
                   />
                   <div>
-                    <Link to={`/${country.country}`}>
-                      <h6 className="country-name">{country.country}</h6>
-                    </Link>
+                    <h6 className="country-name">{country.country}</h6>
                   </div>
                   <div>
                     <small className="text-muted">
@@ -75,7 +73,7 @@ function Countries() {
                       {country.alpha3}
                     </small>
                   </div>
-                </div>
+                </Link>
               </div>
             );
           })}
