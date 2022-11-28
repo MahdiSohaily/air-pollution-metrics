@@ -89,44 +89,6 @@ select {
   }
 }
 
-/* Header section styles */
-header {
-  box-shadow: 0 0 4px 1px #474545;
-}
-
-.navBar {
-  align-items: center;
-  justify-content: space-between;
-  padding-block: 1rem;
-}
-
-.navBrand {
-  align-items: center;
-}
-
-.menuNav {
-  align-items: center;
-}
-
-.logo {
-  width: 50px;
-  height: auto;
-}
-
-.menuNav {
-  gap: 1.5rem;
-}
-
-.nav-link a {
-  text-decoration: none;
-}
-
-.nav-link a.active {
-  text-decoration: underline;
-}
-
-/* End of header section styles */
-
 /* Rocket section styles */
 .card {
   flex-direction: column;
