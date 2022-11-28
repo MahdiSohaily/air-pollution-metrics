@@ -1,0 +1,52 @@
+.bg-main {
+  background-color: hsl(219, 45%, 48%);
+}
+
+.back-container {
+  padding: 1rem;
+  background-color: hsl(219, 47%, 41%);
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: transparent;
+  border: none;
+}
+
+.back-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.county-details {
+  padding: 1rem 0;
+}
+
+.country-info {
+  padding: 1rem;
+}
+
+.pollution-table {
+  width: 100%;
+  margin-block: 1rem;
+}
+
+.data-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.data-item:nth-child(odd) {
+  background-color: hsl(219, 45%, 39%);
+}
+
+.loading-data {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

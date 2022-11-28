@@ -1,0 +1,32 @@
+.container {
+  background-color: hsl(219, 45%, 48%);
+}
+
+.banner-section {
+  padding: 1.5rem 3rem;
+}
+
+.countries-heading {
+  padding: 0;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card {
+  height: 220px;
+  padding: 1rem;
+  text-align: center;
+  background-color: hsl(219, 45%, 48%);
+}
+
+.dark {
+  background-color: hsl(219, 45%, 45%);
+}
+
+img {
+  display: block;
+  margin-inline: auto;
+}

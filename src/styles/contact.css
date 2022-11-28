@@ -1,0 +1,18 @@
+.contact-info {
+  width: 60%;
+  margin: 40px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  height: 76vh;
+}
+
+.bg-main {
+  background-color: hsl(219, 45%, 48%);
+}

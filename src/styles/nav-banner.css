@@ -1,0 +1,48 @@
+/* Header section styles */
+header {
+  box-shadow: 0 0 4px 1px #474545;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.navMenu {
+  position: fixed;
+  height: 100vh;
+  width: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  gap: 1.5rem;
+  background-color: hsl(0, 1%, 27%);
+  padding-block: 1rem;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+}
+
+.nav-link:hover {
+  background-color: hsl(0, 2%, 19%);
+}
+
+.nav-link a {
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.action-button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background-color: dodgerblue;
+  color: var(--clr-neutral-100);
+  border: none;
+}
+
+/* End of header section styles */
