@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import data from '../../data/data';
 import '../../styles/country.css';
@@ -58,6 +58,7 @@ function Countries() {
               <div className={`card ${mode[0]}`} key={country.alpha3}>
                 <Link to={`/${country.country}`}>
                   <img
+                    loading="lazy"
                     width={130}
                     height={140}
                     alt="card"
