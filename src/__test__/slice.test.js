@@ -11,34 +11,34 @@ describe('Tests for Redux in project', () => {
       sliceReducer(
         initialState,
         getPollutionData([
-          'Plains Zebra',
-          'Magpie Goose',
-          'Fairy Bluebird',
-          'Black Rhinoceros',
-          'Mosquitofish',
+          'Albania',
+          'Andorra',
+          'Austria',
+          'Belarus',
+          'Belgium',
           'Grey Crowned Crane',
           'Alpaca',
-          'Dyeing Poison Dart Frog',
-          'Green Tree Monitor',
-          'Blue-Crowned Motmot',
+          'Bosnia and Herzegovina',
+          'Bulgaria',
+          'Croatia',
         ]),
       ),
     ).not.toEqual([
-      'Plains Zebra',
-      'Magpie Goose',
-      'Fairy Bluebird',
-      'Black Rhinoceros',
-      'Mosquitofish',
+      'Albania',
+      'Andorra',
+      'Austria',
+      'Belarus',
+      'Belgium',
       'Grey Crowned Crane',
       'Alpaca',
-      'Dyeing Poison Dart Frog',
-      'Green Tree Monitor',
-      'Blue-Crowned Motmot',
+      'Bosnia and Herzegovina',
+      'Bulgaria',
+      'Croatia',
     ]);
   });
   it('Test if it returns a same item in the array', () => {
     expect(
-      sliceReducer(initialState, getPollutionData(['Plains Zebra'])),
-    ).not.toEqual(['Plains Zebra']);
+      sliceReducer(initialState, getPollutionData(['Czech Republic'])),
+    ).not.toEqual(['Czech Republic']);
   });
 });
