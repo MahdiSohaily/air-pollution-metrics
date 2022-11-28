@@ -1,0 +1,20 @@
+.socials-layer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(235, 235, 235);
+  }
+  
+  .socials-layer a img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .copyright {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
